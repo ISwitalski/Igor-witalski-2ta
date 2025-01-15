@@ -1,0 +1,379 @@
+@media only screen and (min-width: 1200px) {
+body {
+    background-color: #3280cf;
+}
+
+.header {
+    background-color:  #ffeb6c;
+    position: fixed;
+    top: 1vh;
+    left: 1vw;
+    right: 1vw;
+    margin: auto;
+}
+
+.menu1 {
+    animation-name: Menu;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+    width: 20vw;
+    float: left;
+    border-right: #3280cf solid 1vw;
+}
+.ikea {
+    background-color: #0058a3;
+    width: 20vw;
+    height: 19.6vh;
+    margin: auto;
+    padding: 1.5%;
+}
+
+.ikea2 {
+    animation-fill-mode: forwards;
+    animation-name: IKEA;
+    animation-duration: 3s;
+    background-color: #ffdb00;
+    color: #0058a3;
+    border-radius: 100%;
+    height: 19.6vh;
+    width: 20vw;
+    text-align: center;
+    line-height: 19.6vh;
+    font-family: "Comic Sans MS";
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 20vw;
+    text-align: center;
+    height: fit-content;
+    line-height: 2.59vh;
+}
+.a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: #ffeb6c;
+}
+.a:hover {
+    background-color: #8d823c;
+}
+.spacer {
+    height: 30vh;
+    width: 100vh;
+
+}
+.container  {
+    clear: both;
+    border-bottom:#ffdb00 2px solid;
+    border-top:#ffdb00 2px solid;
+}
+.img1 {
+    clear: both;
+    float: left;
+}
+.p1 {
+    color: #ffdb00;
+    font-size: xx-large;
+    font-family: 'Comic Sans MS';
+    font-weight: bolder;
+    text-align: center;
+}
+.p11 {
+    color: #ffdb00;
+    font-size: large;
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+    text-align: justify;
+}
+.img2 {
+    clear: both;
+    float: right;
+}
+.footer {
+    clear: both;
+    text-align: right;
+    border-top: #ffdb00 2px solid;
+    color: #ffdb00;
+    font-family: 'Comic Sans MS';
+}
+.galeria {
+    text-align: center;
+}
+.table {
+    text-align: center;
+    margin: auto;
+
+}
+.iframe {
+    clear: both;
+}
+.form {
+    margin: 20vh;
+    background-color: #3280cf;
+    box-shadow: #ffdb00 2px 2px 4px;
+    color: #ffdb00;
+}
+
+}
+@media only screen and (max-width: 1200px) {
+    body {
+        background-color: #3280cf;
+    }
+    
+    .header {
+        background-color:  #ffeb6c;
+        position: fixed;
+        top: 1vh;
+        left: 1vw;
+        right: 1vw;
+        margin: auto;
+    }
+    
+    .menu1 {
+        animation-name: Menu;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+        font-weight: bold;
+        font-family: "Comic Sans MS";
+        width: 30vw;
+        float: left;
+        border-right: #3280cf solid 1vw;
+    }
+    .ikea {
+        background-color: #0058a3;
+        width: 32vw;
+        height: 22vh;
+        margin: auto;
+        padding: 1.5%;
+    }
+    
+    .ikea2 {
+        animation-fill-mode: forwards;
+        animation-name: IKEA;
+        animation-duration: 3s;
+        background-color: #ffdb00;
+        color: #0058a3;
+        border-radius: 100%;
+        height: 22vh;
+        width: 32vw;
+        text-align: center;
+        line-height: 22vh;
+        font-family: "Comic Sans MS";
+        font-size: large;
+        font-weight: bolder;
+    }
+    
+    .ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 32vw;
+        text-align: center;
+        height: fit-content;
+        line-height: 2.59vh;
+    }
+    .a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        background-color: #ffeb6c;
+    }
+    .a:hover {
+        background-color: #8d823c;
+    }
+    .spacer {
+        height: 30vh;
+        width: 100vh;
+    }
+
+    .container  {
+        text-align: center;
+        border-bottom:#ffdb00 2px solid;
+        border-top:#ffdb00 2px solid;
+    }
+    .img1 {}
+    .p1 {
+        color: #ffdb00;
+        font-size: xx-large;
+        font-family: 'Comic Sans MS';
+        font-weight: bolder;
+        text-align: center;
+    }
+    .p11 {
+        color: #ffdb00;
+        font-size: large;
+        font-family: 'Comic Sans MS';
+        font-weight: bold;
+        text-align: justify;
+    }
+    .img2 {}
+
+    .footer {
+        clear: both;
+        text-align: right;
+        border-top: #ffdb00 2px solid;
+        color: #ffdb00;
+        font-family: 'Comic Sans MS';
+    }
+    .galeria {
+        text-align: center;
+    }
+    .table {
+        text-align: center;
+        margin: auto;
+    
+    }
+    .iframe {
+        clear: both;
+    }
+    .form {
+        margin: 20vh;
+        background-color: #3280cf;
+        box-shadow: #ffdb00 2px 2px 4px;
+        color: #ffdb00;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #3280cf;
+    }
+    
+    .header {
+        background-color:  #ffeb6c;
+        position: fixed;
+        top: 1vh;
+        left: 1vw;
+        right: 1vw;
+        margin: auto;
+    }
+    
+    .menu1 {
+        animation-name: Menu;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+        font-weight: bold;
+        font-family: "Comic Sans MS";
+        width: 30vw;
+        float: left;
+        border-right: #3280cf solid 1vw;
+    }
+    .ikea {
+        background-color: #0058a3;
+        width: 61.4vw;
+        height: 24vh;
+        padding: 1.5%;
+        float: right;
+    }
+    
+    .ikea2 {
+        animation-fill-mode: forwards;
+        animation-name: IKEA;
+        animation-duration: 3s;
+        background-color: #ffdb00;
+        color: #0058a3;
+        border-radius: 100%;
+        height: 24vh;
+        width: 61.4vw;
+        text-align: center;
+        line-height: 24vh;
+        font-family: "Comic Sans MS";
+        font-size: larger;
+        font-weight: bolder;
+    }
+    
+    .ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 30vw;
+        text-align: center;
+        height: fit-content;
+        line-height: 2.59vh;
+    }
+    .a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        background-color: #ffeb6c;
+    }
+    .a:hover {
+        background-color: #8d823c;
+    }
+    .spacer {
+        height: 30vh;
+        width: 100vh;
+    }
+    .container  {
+        text-align: center;
+        border-bottom:#ffdb00 2px solid;
+        border-top:#ffdb00 2px solid;
+    }
+    .img1 {}
+    .p1 {
+        color: #ffdb00;
+        font-size: 30pt;
+        font-family: 'Comic Sans MS';
+        font-weight: bolder;
+        text-align: center;
+    }
+    .p11 {
+        color: #ffdb00;
+        font-size: 25pt;
+        font-family: 'Comic Sans MS';
+        font-weight: bold;
+        text-align: justify;
+    }
+    .img2 {}
+
+    .footer {
+        clear: both;
+        text-align: right;
+        border-top: #ffdb00 2px solid;
+        color: #ffdb00;
+        font-family: 'Comic Sans MS';
+    }
+
+
+    .galeria {
+        text-align: center;
+    }
+    .table {
+        text-align: center;
+        margin: auto;
+    
+    }
+    .iframe {
+        clear: both;
+    }
+    .form {
+        margin: 20vh;
+        background-color: #3280cf;
+        box-shadow: #ffdb00 2px 2px 4px;
+        color: #ffdb00;
+    }
+}
+@keyframes IKEA {
+    from {
+        color: #ffdb00;
+    }
+    to {
+        color: #0058a3;
+    }
+
+}
+@keyframes Menu {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
